@@ -1,6 +1,13 @@
 *.log
 *.lock
 
+#editors
 .vscode/
+.vs/
+.DS_Store
+
+# binaries
 dist/
+bin/
+lib/
 node_modules/
