@@ -5,6 +5,7 @@ import './App.css';
 import {BrowserRouter, Route, Switch, Redirect, Link} from 'react-router-dom'
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 
 class App extends Component {
@@ -46,11 +47,12 @@ class App extends Component {
             
 
             <Switch>
-             {/* <Route exact path='/' component={PostList} />
+             {/* 
               <Route path='/signup' component={SignUp} />
               <Route path='/login' component={Login} />
               <Route path='/logout' component={Logout} />
               <Route path='/newpost' component={NewPost} />*/} 
+              <Route exact path='/' component={Home} />
               <Route path='/profile' component={Profile} />
             </Switch>
             </div>
