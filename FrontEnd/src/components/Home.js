@@ -3,6 +3,7 @@ import Post from './Post';
 import Map from './Map';
 import '../App.css';
 
+
 function resultList(props){
       return (
      
